@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('subway.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.group-text {
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    color: white;
+    font-weight: bold;
+    border: 3px solid rgb(182, 179, 179);
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    z-index: 2;
+    width: 20%;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px auto;
+    color: black;
+    font-weight: bold;
+    width: 70%;
+    border-radius: 5px;
+    color: white;
+    border: 1px gray solid;
+    height: 40px;
+    text-align: center;
+    box-shadow: 0px 5px #999;
+}
+
+#increment-btn{
+    margin: 30px 0 15px 0;
+    background-color: blue;
+}
+
+#increment-btn:hover {
+    background-color: darkblue;
+}
+
+#increment-btn:active {
+    background-color: darkblue;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
+
+#decrement-btn{
+    margin-bottom: 10px;
+    background-color: red;
+}
+
+#decrement-btn:hover {
+    background-color: darkred;
+}
+
+#decrement-btn:active {
+    background-color: darkred;
+    box-shadow: 0 3px #666;
+    transform: translateY(4px);
+}
